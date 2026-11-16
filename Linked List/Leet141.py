@@ -5,7 +5,7 @@ class ListNode:
 
 
 class Solution:
-    def hasCycle(self, head: Optional[ListNode]) -> bool: 
+    def hasCycle(self, head: [ListNode]) -> bool: 
         slow = fast = head 
         while fast and fast.next:
             slow = slow.next 
