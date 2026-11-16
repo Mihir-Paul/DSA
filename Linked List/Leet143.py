@@ -1,3 +1,10 @@
+class ListNode:
+    def __init__(self,val,next):
+        self.val = val 
+        self.next = next 
+
+
+
 class Solution:
     def reorderList(self, head: ListNode | None) -> None:
         if not head or not head.next:
