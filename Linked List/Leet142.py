@@ -11,4 +11,4 @@ class Solution:
                     fast = fast.next 
                     return slow 
 
-        return None
+        return None 
